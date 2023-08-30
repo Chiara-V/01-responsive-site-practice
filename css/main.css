@@ -2,13 +2,17 @@ body {
   background: cornflowerblue;
 }
 /* ----------- For screens 768px and larger ----------- */
-@media () {
+@media (min-width: 780px) {
 	body {
+    background-color: brown;
 
   }
 }
 
 /* ----------- For screens 1200px wide and larger----------- */
-@media () {
+@media (min-width: 1200px) {
+  body {
+    background-color: yellow;
 
+  }
 }
